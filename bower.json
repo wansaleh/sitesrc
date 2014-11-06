@@ -1,0 +1,30 @@
+{
+  "name": "themuhibbain",
+  "description": "The official The Muhibbain website.",
+  "version": "0.0.1",
+  "homepage": "http://themuhibbain.com",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "wow": "~1.0.2",
+    "jquery-easing": "*",
+    "jquery-waypoints": "~2.0.5",
+    "jquery-backstretch": "~2.0.4",
+    "foundation": "5.4.6",
+    "fastclick": "~1.0.3",
+    "modernizr": "~2.8.3",
+    "animate-scss": "~1.1.0",
+    "normalize.css": "~3.0.2",
+    "animate.css": "~3.2.0",
+    "bigtext": "~0.1.6",
+    "stellar": "~0.6.2",
+    "bourbon": "~4.0.2",
+    "neat": "~1.7.0",
+    "bitters": "~0.10.1",
+    "refills": "master",
+    "jquery-instagram": "~0.3.1",
+    "instagram-lite": "~1.0.1",
+    "picturefill": "~2.1.0"
+  }
+}
