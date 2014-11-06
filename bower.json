@@ -1,8 +1,8 @@
 {
-  "name": "themuhibbain",
-  "description": "The official The Muhibbain website.",
+  "name": "sitesrc",
+  "description": "Official site of Wan Saleh.",
   "version": "0.0.1",
-  "homepage": "http://themuhibbain.com",
+  "homepage": "http://wansaleh.com",
   "license": "MIT",
   "private": true,
   "dependencies": {

@@ -27,7 +27,7 @@ set :css_dir, 'assets/css'
 set :js_dir, 'assets/js'
 set :images_dir, 'assets/img'
 set :partials_dir, 'partials'
-set :build_dir, '../themuhibbain.github.io'
+set :build_dir, '../wansaleh.github.io'
 
 set :trailing_slash, false
 
