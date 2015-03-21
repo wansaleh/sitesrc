@@ -36,10 +36,16 @@ body {
   }
 
   .info {
-    margin: 4em 0 1em;
+    margin: 4rem 0 2rem;
     color: $ch-gray-1;
-    font-size: 1.1em;
+    font-size: 1.8rem;
     letter-spacing: 2px;
+
+    span {
+      color: $ch-gray-2;
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+    }
   }
 
   .links {
