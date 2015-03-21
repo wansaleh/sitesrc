@@ -13,7 +13,7 @@ html, body {
 }
 
 body {
-  background: $grapefruit-light;
+  background: $ch-black-1;
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -27,14 +27,35 @@ body {
 
   h1 {
     img {
-      width: 70%;
-
-      @include media($medium-up) {
-        width: 50%;
-      }
+      width: 60%;
+      max-width: 500px;
     }
     span {
       font-size: 0;
+    }
+  }
+
+  .info {
+    margin: 4em 0 1em;
+    color: $ch-gray-1;
+    font-size: 1.1em;
+    letter-spacing: 2px;
+  }
+
+  .links {
+
+    .btn-ghost {
+      margin: 0 5px;
+      border: 1px solid $ch-gray-1;
+      color: $ch-gray-1;
+      padding: .6em 1.2em;
+      font-size: 1.2em;
+      transition: all .3s;
+
+      &:hover {
+        border: 1px solid #fff;
+        color: #fff;
+      }
     }
   }
 }

@@ -5,40 +5,13 @@
 // Color names
 @import "colors";
 
-// Normalize
-@import "normalize";
-
-// Bourbon stuffs
-@import "bourbon";
-
-// Neat Settings
-@import "neat-settings";
-
-// Neat
-@import "neat";
-
-// Bitters Variables
-@import "bitters-variables";
-
-// Extends
-@import "bitters/app/assets/stylesheets/extends/button";
-@import "bitters/app/assets/stylesheets/extends/clearfix";
-@import "bitters/app/assets/stylesheets/extends/errors";
-@import "bitters/app/assets/stylesheets/extends/flashes";
-@import "bitters/app/assets/stylesheets/extends/hide-text";
-
-// Typography and Elements
-@import "bitters/app/assets/stylesheets/typography";
-// @import "bitters/app/assets/stylesheets/forms";
-// @import "bitters/app/assets/stylesheets/tables";
-@import "bitters/app/assets/stylesheets/lists";
-@import "bitters/app/assets/stylesheets/buttons";
-
-// Refills
-// @import "refills/source/stylesheets/refills/textures";
-
 // Easing
 @import "easing";
+
+// Bootstrap
+$font-family-sans-serif: "Oswald", Helvetica, Arial, sans-serif !default;
+@import "bootstrap-sass";
+
 
 // Animation.scss
 // @import "animate-scss/src/animate";
