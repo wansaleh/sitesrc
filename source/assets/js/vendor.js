@@ -1,3 +1,3 @@
 //= require "jquery"
 //= require "fastclick"
-//= require "picturefill"
+//= require "wow"

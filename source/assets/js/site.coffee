@@ -24,5 +24,5 @@ $.debounce = (func, wait, immediate) ->
     func.apply context, args  if callNow
 
 $ ->
-  # FastClick
   FastClick.attach document.body
+  new WOW().init()

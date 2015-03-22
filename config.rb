@@ -97,19 +97,4 @@ helpers do
     "/assets/img/#{url}"
   end
 
-  def list_gallery_thumbs
-    require "ostruct"
-
-    images = Array.new
-    Dir.glob("#{root}/source/assets/img/gth/*.{jpg,jpeg}").collect do |path|
-      img = OpenStruct.new
-      size = FastImage.size path
-      img.landscape = size[0] > size[1]
-      img.url = path.sub "#{root}/source", ""
-      images.push img
-    end
-
-    images
-  end
-
 end

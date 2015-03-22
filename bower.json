@@ -11,18 +11,13 @@
     "jquery-easing": "*",
     "jquery-waypoints": "~3.1.1",
     "jquery-backstretch": "~2.0.4",
-    "foundation": "~5.5.1",
     "fastclick": "~1.0.6",
     "modernizr": "~2.8.3",
-    "animate-scss": "~1.2.1",
-    "normalize.css": "~3.0.2",
-    "animate.css": "~3.2.5",
     "bigtext": "~0.1.8",
     "stellar": "~0.6.2",
     "jquery-instagram": "~0.3.1",
-    "instagram-lite": "~1.0.1",
-    "picturefill": "~2.2.0",
-    "bootstrap-sass": "~3.3.4"
+    "bootstrap-sass": "~3.3.4",
+    "animate.css": "~3.2.5"
   },
   "resolutions": {
     "jquery": "~2.1.3"
