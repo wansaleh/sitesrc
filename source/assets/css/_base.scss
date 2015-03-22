@@ -12,9 +12,8 @@
 $font-family-sans-serif: "Oswald", Helvetica, Arial, sans-serif !default;
 @import "bootstrap-sass";
 
-
 // Animation.scss
-@import "animate.css/animate.css";
+@import "animate";
 
 // vars
 $imgurl: "/assets/img";
