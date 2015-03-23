@@ -5,7 +5,7 @@
 @import "colors";
 
 // Easing
-@import "easing";
+// @import "easing";
 
 // Bootstrap
 $body-bg: $ch-black-1;
@@ -14,7 +14,8 @@ $font-family-sans-serif: "Lato", Helvetica, Arial, sans-serif !default;
 @import "bootstrap-sass";
 
 // Animation.scss
-@import "animate";
+$enable-all-modules: true;
+@import "animate-scss";
 
 // vars
 $imgurl: "/assets/img";

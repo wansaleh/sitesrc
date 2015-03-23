@@ -13,11 +13,9 @@
     "jquery-backstretch": "~2.0.4",
     "fastclick": "~1.0.6",
     "modernizr": "~2.8.3",
-    "bigtext": "~0.1.8",
     "stellar": "~0.6.2",
-    "jquery-instagram": "~0.3.1",
     "bootstrap-sass": "~3.3.4",
-    "animate.css": "~3.2.5"
+    "animate-scss": "~1.2.1"
   },
   "resolutions": {
     "jquery": "~2.1.3"
