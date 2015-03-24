@@ -17,13 +17,7 @@ gem 'middleman-minify-html'
 
 # Precompilers
 gem 'coffee-script'
-gem 'compass'
 gem 'sass'
-
-# Bourbon
-gem 'bourbon'
-gem 'neat'
-gem 'bitters'
 
 # image
 gem 'fastimage'

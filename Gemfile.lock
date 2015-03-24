@@ -11,13 +11,6 @@ GEM
     autoprefixer-rails (5.1.7.1)
       execjs
       json
-    bitters (1.0.0)
-      bourbon (>= 3.2)
-      sass (>= 3.2)
-      thor
-    bourbon (4.2.1)
-      sass (~> 3.4)
-      thor
     celluloid (0.16.0)
       timers (~> 4.0.0)
     chunky_png (1.3.4)
@@ -123,9 +116,6 @@ GEM
       sprockets-sass (~> 1.3.0)
     minitest (5.5.1)
     multi_json (1.11.0)
-    neat (1.7.2)
-      bourbon (>= 4.0)
-      sass (>= 3.3)
     padrino-helpers (0.12.5)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.12.5)
@@ -178,10 +168,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bitters
-  bourbon
   coffee-script
-  compass
   fastimage
   middleman
   middleman-autoprefixer
@@ -190,6 +177,5 @@ DEPENDENCIES
   middleman-minify-html
   middleman-smusher
   middleman-sprockets
-  neat
   sass
   unicorn
