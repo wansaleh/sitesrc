@@ -8,8 +8,8 @@
 // @import "easing";
 
 // Bootstrap
-$body-bg: $ch-black-1;
-$text-color: $ch-gray-1;
+$body-bg: palette(Brown, 700);
+$text-color: palette(Brown, 200);
 $font-family-sans-serif: "Lato", Helvetica, Arial, sans-serif !default;
 @import "bootstrap-sass";
 

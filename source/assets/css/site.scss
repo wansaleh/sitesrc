@@ -38,32 +38,38 @@ body {
   }
 
   .info {
-    margin: 4rem 0 2rem;
-    color: $ch-gray-1;
+    margin: 8rem 0;
+    color: $text-color;
     font-size: 1.8rem;
     letter-spacing: 2px;
 
     .lead {
+      display: inline-block;
       font-size: 2.2rem;
       font-weight: 700;
+      padding: .4em .8em;
+      border: 2px solid rgba($text-color, .4);
+      color: $text-color;
+      letter-spacing: 3px;
     }
 
     span {
-      color: $ch-gray-2;
-      font-size: 1.4rem;
-      letter-spacing: 1px;
+      color: rgba($text-color, .4);
+      font-size: 1.6rem;
+      letter-spacing: 2px;
     }
   }
 
   .links {
     .btn-ghost {
       margin: 0 5px 10px;
-      border: 2px solid $ch-gray-1;
-      color: $ch-gray-1;
+      border: 2px solid rgba($text-color, .4);
+      color: $text-color;
       border-radius: 0;
       // padding: .6em 1.2em;
-      font-size: 1.5rem;
-      letter-spacing: 1px;
+      font-size: 1.3rem;
+      font-weight: 700;
+      letter-spacing: 3px;
       text-transform: uppercase;
       transition: all .3s;
 
