@@ -29,8 +29,8 @@ body {
 
   h1 {
     img {
-      width: 80%;
-      max-width: 400px;
+      width: 60%;
+      max-width: 300px;
     }
     span {
       font-size: 0;
@@ -42,6 +42,11 @@ body {
     color: $ch-gray-1;
     font-size: 1.8rem;
     letter-spacing: 2px;
+
+    .lead {
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
 
     span {
       color: $ch-gray-2;
