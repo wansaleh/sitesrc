@@ -26,3 +26,6 @@ $.debounce = (func, wait, immediate) ->
 $ ->
   FastClick.attach document.body
   new WOW().init()
+
+# ripple fx
+$("[data-ripple]").ripple()

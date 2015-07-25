@@ -15,7 +15,8 @@
     "modernizr": "~2.8.3",
     "stellar": "~0.6.2",
     "bootstrap-sass": "~3.3.4",
-    "animate-scss": "~1.2.1"
+    "animate-scss": "~1.2.1",
+    "jquery.ripple": "~0.2.1"
   },
   "resolutions": {
     "jquery": "~2.1.3"

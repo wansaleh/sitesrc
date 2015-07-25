@@ -1,4 +1,4 @@
-#ruby=ruby-2.2.1
+#ruby=ruby-2.2.2
 #ruby-gemset=middleman
 
 source 'https://rubygems.org'
