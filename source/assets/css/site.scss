@@ -18,6 +18,7 @@ body {
   padding: 0;
   position: relative;
   overflow-x: hidden;
+  border-top: 4px solid $text-color;
 }
 
 .wrapper {
@@ -27,44 +28,54 @@ body {
   padding-bottom: 10em;
   text-align: center;
 
-  h1 {
-    img {
-      width: 60%;
-      max-width: 300px;
-    }
-    span {
-      font-size: 0;
-    }
-  }
 
   .info {
-    margin: 8rem 0;
+    margin: 8rem 0 4rem;
     color: $text-color;
     font-size: 1.8rem;
-    letter-spacing: 2px;
+    // letter-spacing: 2px;
 
-    .lead {
+    .lead-1 {
       display: inline-block;
       font-size: 2.2rem;
-      font-weight: 700;
+      // font-weight: 700;
+      margin: 0 0 2em;
       padding: .4em .8em;
-      border: 2px solid rgba($text-color, .4);
       color: $text-color;
-      letter-spacing: 3px;
+      letter-spacing: 0px;
+      border-radius: 3px;
+      background: $text-color;
+      color: $body-bg;
     }
 
-    span {
-      color: rgba($text-color, .4);
-      font-size: 1.6rem;
-      letter-spacing: 2px;
-
-      .email {
-        color: $text-color;
+    h1 {
+      // margin: 2em 0;
+      img {
+        width: 60%;
+        max-width: 300px;
+      }
+      span {
+        font-size: 0;
       }
     }
   }
 
   .links {
+    .contact {
+      margin: 2rem 0;
+      font-size: 1.8rem;
+
+      span {
+        color: rgba($text-color, .4);
+        font-size: 1.6rem;
+        // letter-spacing: 2px;
+
+        .email {
+          color: $text-color;
+        }
+      }      
+    }
+
     .btn-ghost {
       margin: 0 5px 10px;
       border: 2px solid rgba($text-color, .4);
