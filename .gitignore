@@ -9,3 +9,5 @@ bower/
 .idea/
 
 _assets/
+
+Gemfile.lock
