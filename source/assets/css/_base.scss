@@ -1,5 +1,5 @@
 // CDN assets
-@import "//fonts.googleapis.com/css?family=Lato:300,700";
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans+Condensed:300,700);
 
 // Color names
 @import "colors";
@@ -13,7 +13,7 @@
 // Bootstrap
 $body-bg: palette(Brown, 700);
 $text-color: palette(Brown, 200);
-$font-family-sans-serif: "Lato", Helvetica, Arial, sans-serif !default;
+$font-family-sans-serif: "Oswald", Helvetica, Arial, sans-serif !default;
 @import "bootstrap-sass";
 
 // Animation.scss
