@@ -79,6 +79,7 @@ body {
     .contact {
       margin: 2rem 0;
       font-size: 1.8rem;
+      letter-spacing: 0.1em;
 
       span {
         color: rgba($text-color, .4);
@@ -88,7 +89,7 @@ body {
         .email {
           color: $text-color;
         }
-      }      
+      }
     }
 
     .btn-ghost {
